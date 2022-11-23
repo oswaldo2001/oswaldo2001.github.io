@@ -1,0 +1,620 @@
+@charset "utf-8";
+body main{padding-top:1px;
+    height:1250px;
+    width: 100%;
+	background-color: #B3B3B3;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-size: medium;
+}
+
+body nav{padding-top: 1px;
+	height: 60px;
+    width: 100%;
+    background-color:#000000;
+	color: #000000;
+    font-family: 'General Sans', 'General Sans Extralight', 'General Sans Extralight Italic', 'General Sans Light', 'General Sans Light Italic', 'General Sans Medium', 'General Sans Medium Italic', 'General Sans Semibold', 'General Sans Semibold Italic';
+    text-align: center;
+	 text-decoration: none;
+        background-size: cover;
+    background-attachment: fixed;
+     margin: 0;
+}
+
+body header{ padding-top: 1px;
+    height: 110px;
+    width: 100%;
+    background-color: #FC8442;
+    color: #000000;
+    font-family: 'General Sans', 'General Sans Extralight', 'General Sans Extralight Italic', 'General Sans Light', 'General Sans Light Italic', 'General Sans Medium', 'General Sans Medium Italic', 'General Sans Semibold', 'General Sans Semibold Italic';
+    text-align: left;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-size: 40px;
+}
+
+body footer
+{ height: 110px;
+    width: 100%;
+	margin: 0;
+	padding-top: 1px;
+	padding-bottom: 1px;
+    background-color: #FC8442;
+    color: #000000;
+    font-family: 'General Sans', 'General Sans Extralight', 'General Sans Extralight Italic', 'General Sans Light', 'General Sans Light Italic', 'General Sans Medium', 'General Sans Medium Italic', 'General Sans Semibold', 'General Sans Semibold Italic';
+    text-align: center;
+	background-size: cover;
+    background-attachment: fixed;
+
+}
+
+h1{
+    margin: 0;
+    padding-top: .09765625%;
+    padding-bottom: .09765625%;
+    padding-left: 10.7421875%;
+}
+h2{padding: 0.48828125%;
+	color: #000000;
+    font-family: 'General Sans', 'General Sans Extralight', 'General Sans Extralight Italic', 'General Sans Light', 'General Sans Light Italic', 'General Sans Medium', 'General Sans Medium Italic', 'General Sans Semibold', 'General Sans Semibold Italic';
+	 text-decoration: none;
+        background-size: cover;
+    background-attachment: fixed;
+	font-size: 10px;
+}
+
+h3{
+    color: #000000;
+    font-family: 'General Sans', 'General Sans Extralight', 'General Sans Extralight Italic', 'General Sans Light', 'General Sans Light Italic', 'General Sans Medium', 'General Sans Medium Italic', 'General Sans Semibold', 'General Sans Semibold Italic';
+    text-decoration: none;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 11px;
+    
+}
+h5{
+    margin: .9765625%;
+    padding-top: .09765625%;
+    padding-bottom: .09765625%;
+    font-family: "General Sans", "General Sans Extralight", "General Sans Extralight Italic", "General Sans Light", "General Sans Light Italic", "General Sans Medium", "General Sans Medium Italic", "General Sans Semibold", "General Sans Semibold Italic";
+}
+
+.link:hover{ color: #555555;}
+
+.link{ text-decoration: none;
+color: #FFFFFF;
+    font-weight: 600;
+text-align: center;
+    width:  7.8125%;;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    display: inline-block;
+    border-radius: 15.48828125%;
+    cursor: pointer;
+     margin: 10px;
+    padding: 10px;    
+float: left;
+}
+.linkinicio  {
+    background-color: #B3B3B3;
+}
+
+
+.link2{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    clear: both;
+    margin: 0%;
+}
+
+.link2:hover{ color: #555555;}
+.imginicio {
+    float: left;
+    clear: left;
+    padding-top: .9765625%;
+    padding-right: .9765625%;
+    padding-left: .9765625%;
+    background-color: #404040;
+    margin-bottom: 0%;
+    padding-bottom: 1.953125%;
+    display: flex;
+    flex-direction: column;
+}
+.imginiciotexto {
+    float: left;
+    clear: left;
+    text-align: center;
+    background-color: #404040;
+    margin-left: 0%;
+    color: #FFFFFF;
+    padding-right: 1.953125%;
+    padding-left: 1.953125%;
+    padding-bottom: .9765625%;
+    padding-top: .9765625%;
+    margin-bottom: 0%;
+    margin-right: 23%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+}
+.titulosblog {
+    padding-top: 0.48828125%;
+    padding-right: 3.90625%;
+    padding-left: 3.90625%;
+    padding-bottom: .9765625%;
+    color: #D44B00;
+    font-family: 'General Sans', 'General Sans Extralight', 'General Sans Extralight Italic', 'General Sans Light', 'General Sans Light Italic', 'General Sans Medium', 'General Sans Medium Italic', 'General Sans Semibold', 'General Sans Semibold Italic';
+    text-align: left;
+    text-decoration: none;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 20px;
+    clear: left;
+    float: left;
+    margin-right: 56.640625%;
+}
+p{
+    color: #000000;
+    font-family: 'General Sans', 'General Sans Extralight', 'General Sans Extralight Italic', 'General Sans Light', 'General Sans Light Italic', 'General Sans Medium', 'General Sans Medium Italic', 'General Sans Semibold', 'General Sans Semibold Italic';
+    text-decoration: none;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 12px;
+    text-align: justify;
+    margin-left: 0%;
+}
+.iconodelanuez {
+    clear: left;
+    margin-top: .09765625%;
+    margin-bottom: .09765625%;
+    padding-top: .09765625%;
+    padding-bottom: .09765625%;
+    float: left;
+    padding-left: 8px;
+}
+.ordenfechas { padding-top: 0.48828125%;
+    padding-right: 3.90625%;
+    padding-left: 3.90625%;
+    padding-bottom: .09765625%;text-align: left;
+	clear: left;
+    float: left;
+}
+.ordentextoblog {
+    clear: left;
+    float: left;
+    margin-right: 54.6875%;
+    margin-left: 3.90625%;
+    margin-top: .9765625%;
+    margin-bottom: .9765625%;
+}
+.oredntextosdeinicio {
+    float: right;
+    clear: right;
+    display: flex;
+    flex-direction: row;
+    margin-right: 3.90625%;
+    margin-left: 48.828125%;
+    margin-top: .9765625%;
+	
+}
+.ordenimagenesdeladoderecho {
+    clear: right;
+    float: right;
+    margin-right: 40px;
+    margin-left: 510px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 208px;
+}
+.contenedor{
+    width: 100%;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    max-width: 1024px;
+    overflow: hidden;
+    box-sizing: border-box;
+	
+}
+.seccionlateral{
+    display: flex;
+    margin-top: 0%;
+    margin-left: 3.90625%;
+    padding-top: 0%;
+    flex-direction: column;
+    float: left;
+    padding-bottom: .9765625%;
+    margin-right: 580px;
+    position: absolute;
+    top: 210px;
+}
+.posiciondiferente {
+    top: 380px;
+}
+.posiciondiferente2 {
+    top: 735px;
+}
+.posiciondiferente1 {
+    top: 735px;
+    left: 26.3671875%;
+}
+.link3 {
+    text-decoration: none;
+    color: #D44B00;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+.link3:hover{ color: #FC8442;}
+.ordentextogaleria {
+    clear: left;
+    float: left;
+    margin-right: 62.5%;
+    margin-left: 3.90625%;
+    margin-top: .9765625%;
+    margin-bottom: .9765625%;
+}
+.galeria {
+    margin-right: 3.90625%;
+    margin-top: 1.953125%;
+}
+.siguientepagina {clear: left;font-family: 'General Sans', 'General Sans Extralight', 'General Sans Extralight Italic', 'General Sans Light', 'General Sans Light Italic', 'General Sans Medium', 'General Sans Medium Italic', 'General Sans Semibold', 'General Sans Semibold Italic';
+    float: left;
+    margin-right: 54.6875%;
+    margin-left: 3.90625%;
+    margin-top: .9765625%;
+    margin-bottom: .9765625%;
+}
+.posiciondiferente3 {
+	top: 550px;}
+
+.posiciondiferente4 {
+    top: 735px;
+}
+.posiciondiferente5 {
+    top: 925px;
+}.infografia1 {
+    clear: right;
+    float: right;
+    margin-right: 40px;
+    margin-left: 480px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 208px;
+}
+.direcciontituloderecho {
+    float: right;
+    clear: right;
+    display: flex;
+    flex-direction: row;
+    margin-right: 3.90625%;
+    margin-left: 48.828125%;
+    margin-top: .9765625%;
+    padding-left: 0;
+    padding-right: 12.890625%;
+}
+.buscar{
+    position: absolute;
+    padding: 5px;
+    top: 32px;
+    left: 854px;
+	display: block;
+}
+.buscar input{ width: 0px;
+	height: 40px;
+	padding: 0 10px;
+	font-size: 18px;
+	color: #000000;
+	outline: none;
+	border: 1px solid #B3B3B3;
+	border-radius: 30px;
+	transition: all 0.6s ease;
+}
+
+.buscar input:focus{width: 240px;}
+
+.btn{
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    background: #FC8442;
+    width: 48px;
+    height: 48px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buscar:hover input{
+    width: 240px;
+    top: auto;
+}
+.enviar {
+    padding-top: 0px;
+	position: absolute;
+    top: 2px;
+    right: 0px;
+    width: 48px;
+    height: 48px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.espaciado {
+    margin-right: 40px;
+}
+.spider {
+   clear: left;
+    float: left;
+    margin-right: 480px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 510px;
+
+}
+.herramientas {
+    clear: right;
+    float: right;
+    margin-right: 40px;
+    margin-left: 480px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 840px;
+}
+.ladoderechooo {
+    clear: right;
+    float: right;
+    margin-right: 40px;
+    margin-left: 550px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.textosderechosss {
+    padding-left: 40px;
+    padding-right: 120px;
+    margin-right: 40px;
+
+}
+.abajoderecho {
+    top: 644px;
+}
+.infobatman {
+    clear: right;
+    float: right;
+    margin-right: 40px;
+    margin-left: 520px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 264px;
+}
+.injustice {
+    clear: left;
+    float: left;
+    margin-right: 480px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 264px;
+}
+.bajar {
+    clear: left;
+    float: left;
+    margin-right: 480px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1400px;
+   
+}
+.subir {
+    clear: right;
+    float: right;
+    margin-right: 40px;
+    margin-left: 520px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 208px;
+    left: 126px;
+
+}
+.tamano {
+    font-size: 40px;
+}
+.allado {
+    left: 286px;
+}
+.bordes {
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    padding-top: 0px;
+}
+
+.contenedorr{
+    width: 400px;
+    margin: 1px;
+    padding: 1px;
+}
+.formulario{background-size: cover;
+    background-attachment: fixed;
+    background:#FC8442;
+    text-align: center;
+    width: 750px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+input[ type="text"],input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    min-width: 50px;
+    
+    
+}
+.img {
+    float: left;
+    top: 10px;
+    margin-top: 2px;
+}
+.paratextos {
+    height: 160px;
+}
+
+.contenedoritem {
+    height: 300px;
+    overflow: hidden;
+    width: 540px;
+	clear: right;
+    float: right;
+    margin-right: 40px;
+    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 208px;
+}
+
+.itemcarrucel{
+    height: 100%;
+    position: relative;
+
+}
+
+.tarjetacarrucel{
+    height: 100%;
+}
+
+.flechascarrucel{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+	transition: all 0.22s ease;
+}
+
+.imagendelagaleria {
+    width: 100%;
+    height: 100%;
+    top: auto;
+}
+
+.contenedoritem2 {
+    height: 315px;
+    overflow: hidden;
+    width: 640px;
+    clear: right;
+    float: right;
+    margin-right: 40px;
+    margin-left: 390px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 556px;
+    margin-top: 1px;
+}
+
+.itemcarrucel2{
+    height: 100%;
+    position: relative;
+
+}
+
+.tarjetacarrucel2{
+    height: 100%;
+
+}
+
+.flechascarrucel2{
+    position: absolute;
+    height: 40px;
+    top: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    width: 595px;
+}
+.imgv{
+    float: left;
+    top: 26px;
+    margin-top: 8px;
+    margin-left: 36px;
+    
+}
+.ordentextosinfografia {
+	clear: left;
+    float: left;
+    margin-right: 58.59375%;
+    margin-left: 3.90625%;
+    margin-top: .9765625%;
+    margin-bottom: .9765625%;
+}
+.moverlibre {
+    clear: right;
+    float: right;
+    margin-right: 40px;
+    margin-left: 510px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 390px;
+}
+.redfacebook {
+    clear: left;
+    float: left;
+    margin-right: 510px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1018px;
+}
+.redtwter {
+    clear: left;
+    float: left;
+    margin-right: 510px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1060px;
+    left: 430px;
+}
+.colocacion {
+    float: left;
+    clear: left;
+    padding-top: 0px;
+    margin-left: 30px;
+}
